@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "jorgeserrano.vscode-csharp-snippets",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "adrianwilczynski.namespace",
+        "mhutchie.git-graph",
+        "ysemeniuk.emmet-live"
+    ]
+}

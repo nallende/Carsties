@@ -31,11 +31,11 @@ namespace AuctionService.Data.Migrations
                     b.Property<DateTime>("AuctionEnd")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int?>("CuurrentHighBid")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime>("MyProperty")
+                    b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("CurrentHighBid")
+                        .HasColumnType("integer");
 
                     b.Property<int>("ReservePrice")
                         .HasColumnType("integer");
